@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Jakas_aplikacja;assembly=Jakas aplikacja"
+             x:Class="Jakas_aplikacja.Galeria"
+             Title="Galeria">
+    <CarouselView ItemsSource="{x:Static local:ImagesSource.images}" HorizontalScrollBarVisibility="Always" ItemsLayout="HorizontalList">
+
+        <CarouselView.ItemTemplate>
+            <DataTemplate>
+                <StackLayout VerticalOptions="FillAndExpand">
+                    <Image Source="{Binding}" HorizontalOptions="Fill" VerticalOptions="FillAndExpand" />
+                </StackLayout>
+            </DataTemplate>
+            </CarouselView.ItemTemplate>
+        </CarouselView>
+</ContentPage>

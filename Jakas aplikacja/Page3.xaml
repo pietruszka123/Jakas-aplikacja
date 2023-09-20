@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Jakas_aplikacja.Page3"
+             Title="Page3">
+    <VerticalStackLayout>
+        <Button Text="TAK"/>
+        <RadioButton/>
+        <CheckBox />
+        <Entry/>
+        <TimePicker/>
+        <ProgressBar Progress="0.2" ProgressColor="Green"/>
+        <DatePicker/>
+        <Switch/>
+
+    </VerticalStackLayout>
+</ContentPage>

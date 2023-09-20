@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="Jakas_aplikacja.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:views="clr-namespace:Xaminals.Views"
+    xmlns:local="clr-namespace:Jakas_aplikacja"
+    >
+    <TabBar>
+        <Tab Title="NWD">
+            <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:NWD}"
+        Route="MainPage" />
+        </Tab>
+        <Tab Title="Galeria">
+            <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:Galeria}"
+        Route="Galeria" />
+        </Tab>
+        <Tab Title="Komponenty">
+            <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:Page3}"
+        Route="Page3" />
+        </Tab>
+    </TabBar>
+
+
+</Shell>
